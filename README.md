@@ -4,8 +4,8 @@ This Wireshark plugin dissects GRE over UDP protocol (RFC 8086), with GRE extens
 It works when GRE headers are not encrypted (no DTLS).
 
 To use it-
-- place the attached file in the Wireshark program folder
-- include it at the end of 'init.lua' with: dofile(DATA_DIR.."gre_over_udp.lua")
+- Place 'gre_over_udp.lua' in the Wireshark program folder
+- Include it at the end of 'init.lua' with: dofile(DATA_DIR.."gre_over_udp.lua")
 
 It opens an option of "GREoUDP" in the "Decode as..." dialog.
 It arbitrarily register UDP port 5000 by default.
