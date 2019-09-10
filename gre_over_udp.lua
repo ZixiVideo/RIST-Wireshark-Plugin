@@ -1,5 +1,5 @@
 -- Zixi 2019
--- explicit GRE protocol dissector - for GRE over UDP (rfc2890) and RIST main profile extensions
+-- explicit GRE protocol dissector - for GRE over UDP (rfc8086) and RIST main profile extensions
 
 -- Generic GRE
 gre_over_udp = Proto("GREoUDP", "GRE protocol")
