@@ -1,4 +1,4 @@
-# RIST main profile Wireshark Plugin
+# RIST main profile Wireshark plugin
 
 This Wireshark plugin dissects GRE over UDP protocol (RFC 8086), with GRE extensions defined by RIST main profile (VSF TR-06-02).
 It works when GRE headers are not encrypted (no DTLS).
